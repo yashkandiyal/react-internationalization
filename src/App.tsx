@@ -6,8 +6,8 @@ const App = () => {
   const { t } = useTranslation();
   return (
     <div className="bg-gray-800 h-screen w-screen">
-      <LanguageSelector/>
-      <h1 className="text-white text-center text-5xl">{t("greeting")}</h1>
+      <LanguageSelector />
+      <h1 className="text-white text-center text-2xl">{t("greeting")}</h1>
     </div>
   );
 };
